@@ -1,0 +1,25 @@
+{
+  "name": "com.gdf.localization-sheets",
+  "version": "1.0.0",
+  "displayName": "GDF Localization Sheets",
+  "description": "Bridge between Google Sheets (public, no OAuth) and localization backends. Default binding writes into Unity Localization StringTables; the ILocalizationBackend interface lets custom backends plug in. Uses com.gdf.config-import for CSV pulling.",
+  "unity": "6000.0",
+  "author": {
+    "name": "GDF"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlexPyriel/LocalizationSheets.git"
+  },
+  "dependencies": {
+    "com.gdf.config-import": "https://github.com/AlexPyriel/ConfigImport.git#v1.0.0",
+    "com.unity.localization": "1.5.5"
+  },
+  "keywords": [
+    "localization",
+    "google-sheets",
+    "csv",
+    "stringtable",
+    "unity-localization"
+  ]
+}
