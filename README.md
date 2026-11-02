@@ -28,7 +28,7 @@ Assembly name: `GDF.LocalizationSheets`
 Add this dependency to `Packages/manifest.json`:
 
 ```json
-"com.gdf.localization-sheets": "https://github.com/AlexPyriel/LocalizationSheets.git#v1.0.0"
+"com.gdf.localization-sheets": "https://github.com/AlexPyriel/LocalizationSheets.git#v1.0.1"
 ```
 
 For development tracking (not recommended for production), use `#main` instead of a tag.
@@ -36,7 +36,7 @@ For development tracking (not recommended for production), use `#main` instead o
 You can also install it from Unity Package Manager:
 
 - `Window -> Package Manager -> + -> Add package from git URL...`
-- `https://github.com/AlexPyriel/LocalizationSheets.git#v1.0.0`
+- `https://github.com/AlexPyriel/LocalizationSheets.git#v1.0.1`
 
 ## Usage
 
@@ -75,14 +75,16 @@ Click `Reload` — the string tables fill in. Click `Open in browser` to inspect
 Everything downstream stays Unity Localization:
 
 ```csharp
+using UnityEngine.Localization;
+
 LocalizedString greeting = new LocalizedString(tableReference: "UI", tableEntryReference: "menu.play");
 string resolved = greeting.GetLocalizedString();
 ```
 
 ### 5. Custom backend
 
-Target Lean Localization or a game-local service by implementing `ILocalizationBackend` and
-calling `importer.Reload(myBackend)` manually. The default `Reload()` keeps using
+Target Lean Localization or a game-local service by implementing `GDF.LocalizationSheets.ILocalizationBackend`
+and calling `importer.Reload(myBackend)` manually. The default `Reload()` keeps using
 `UnityLocalizationBackend`.
 
 ## Assembly Definition Notes

@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.1] - 2026-11-02
+
+### Changed
+
+- **Breaking:** root namespace renamed from `LocalizationSheets` to `GDF.LocalizationSheets`.
+  Consumers must update `using LocalizationSheets;` → `using GDF.LocalizationSheets;`. Alignment
+  with the GDF.* namespace discipline across the library family.
+
 ## [1.0.0] - 2026-11-02
 
 Initial public release.

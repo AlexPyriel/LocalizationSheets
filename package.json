@@ -1,6 +1,6 @@
 {
   "name": "com.gdf.localization-sheets",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "GDF Localization Sheets",
   "description": "Bridge between Google Sheets (public, no OAuth) and localization backends. Default binding writes into Unity Localization StringTables; the ILocalizationBackend interface lets custom backends plug in. Uses com.gdf.config-import for CSV pulling.",
   "unity": "6000.0",
