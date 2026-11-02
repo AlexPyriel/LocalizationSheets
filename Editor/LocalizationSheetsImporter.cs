@@ -4,7 +4,7 @@ using UnityEditor;
 using UnityEditor.Localization;
 using UnityEngine;
 
-namespace LocalizationSheets.Editor
+namespace GDF.LocalizationSheets.Editor
 {
     /// <summary>
     /// ScriptableObject importer that pulls localization CSV sheets through the GDF ConfigImport

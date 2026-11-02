@@ -1,7 +1,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace LocalizationSheets.Editor
+namespace GDF.LocalizationSheets.Editor
 {
     /// <summary>
     /// Scans the project for every <see cref="LocalizationSheetsImporter"/> asset and reloads each.

@@ -4,7 +4,7 @@ using UnityEditor.Localization;
 using UnityEngine;
 using UnityEngine.Localization.Tables;
 
-namespace LocalizationSheets.Editor
+namespace GDF.LocalizationSheets.Editor
 {
     /// <summary>
     /// Default <see cref="ILocalizationBackend"/>: writes entries into a Unity Localization

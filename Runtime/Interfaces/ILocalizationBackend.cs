@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace LocalizationSheets
+namespace GDF.LocalizationSheets
 {
     /// <summary>
     /// Target storage for localization strings pulled from an external source (Google Sheets, CSV).

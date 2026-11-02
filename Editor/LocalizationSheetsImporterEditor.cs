@@ -1,7 +1,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace LocalizationSheets.Editor
+namespace GDF.LocalizationSheets.Editor
 {
     /// <summary>
     /// Custom inspector for <see cref="LocalizationSheetsImporter"/>: adds <c>Reload</c> and
